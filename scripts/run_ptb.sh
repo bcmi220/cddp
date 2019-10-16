@@ -1,2 +1,0 @@
-cd /share03/xzli/btask
-/share03/xzli/miniconda3/envs/pytorch1.0py3.6/bin/python ./examples/run_dp.py --data_dir=./data/ptb/ --train_file=ptb3.0-stanford.auto.cpos.train.conll --val_file=ptb3.0-stanford.auto.cpos.test.conll --bert_model=./bert/cased_L-24_H-1024_A-16/ --output_dir=outputs/ptb_baseline/ --max_seq_length=320 --do_train --do_eval --train_batch_size=64 --eval_batch_size=64 --learning_rate=1e-5 --num_train_epochs=100 --label_vocab=./data/ptb/labels.vocab --seed=1 --log_file ./logs/ptb_baseline.log
